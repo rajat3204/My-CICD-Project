@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/rajat3204/iam-veeramalla.git'
+        //git branch: 'main', url: 'https://github.com/rajat3204/My-CICD-Project.git'
       }
     }
     stage('Build and Test') {
