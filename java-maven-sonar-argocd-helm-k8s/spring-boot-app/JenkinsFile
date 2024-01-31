@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "iam-veeramalla"
+            GIT_REPO_NAME = "My-CICD-Project"
             GIT_USER_NAME = "rajat3204"
         }
         steps {
